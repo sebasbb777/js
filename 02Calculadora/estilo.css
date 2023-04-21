@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: #FC354C;
+  }
+  #n1{
+    background: green;
+  }
+  #n2{
+    background: green;
+  }
+  button{
+        height: 100px;
+        width: 200px;
+        background-color: blue
+      }

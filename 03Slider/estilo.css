@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: rgb(31, 68, 255);
+    background: radial-gradient(circle, rgba(31, 68, 255, 0.07246376811594202) 12%, rgba(130, 0, 26, 1) 100%);
+  }
+  #n1{
+    background: green;
+  }
+  #n2{
+    background: green;
+  }
+  button{
+        height: 100px;
+        width: 200px;
+        background-color: blue
+      }
+  
