@@ -1,0 +1,19 @@
+*{ 
+    margin:0px;
+    padding: 0px; }
+  
+  div#res{ 
+    width: 500px; 
+    height: 500px; 
+    background: black;
+  
+  } 
+  .cajita{
+    display: inline-block;
+    background: darkred;
+    margin:15px;
+  }
+  body{
+    background: rgb(139, 32, 166);
+    background: radial-gradient(circle, rgba(139, 32, 166, 1) 0%, rgba(211, 32, 153, 0.9978919595911883) 100%);
+  }

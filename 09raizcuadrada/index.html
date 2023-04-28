@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+     <link rel="stylesheet" href="estilo.css">
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="../img/img.jfif" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          RAIZ CUADRADA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                </div>
+            </div>
+    </div>
+</nav>
+<center>
+<body onunload-"generar()">
+  <form>
+    <input type="range" onchange="generar()" min="0" max="100" value="50" id="n">
+    <label id="vn">50</label>
+    <div id="res"></div>
+    <button onlick="borrar()" id="borrar" 
+    >BORRAR</button>
+    </form>
+    
+<script src="main.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</center>
+  </body>
+</html>
